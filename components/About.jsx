@@ -21,9 +21,9 @@ const About = () => {
           </p>
           <p className="py-2 text-gray-600">
             I offer cost-effective solutions for organizations and people who
-            are looking for professional web development. I'm enthusiastic with
+            are looking for professional web development. I am enthusiastic with
             regard to a clean plan and I give straightforward answers for
-            handling complex necessities. I'm continually examining new
+            handling complex necessities. I am continually examining new
             innovations and suggesting them when they bode well. Consumer
             satisfaction alongside on-time delivery is my main concern. So don’t
             hesitate to get in touch with me.

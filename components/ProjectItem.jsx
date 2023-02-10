@@ -16,6 +16,7 @@ const ProjectItem = ({ title, backgroundImg, tech, projectUrl }) => {
         <p className="pb-4 pt-2 text-white text-center">{tech}</p>
         <a
           target={"_blank"}
+          rel="noreferrer noopener"
           href={projectUrl}
           className="px-4 text-center py-3 rounded-lg bg-white text-gray-700 font-bold text-lg cursor-pointer"
         >
