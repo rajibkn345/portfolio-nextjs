@@ -58,19 +58,19 @@ const Navbar = () => {
         <Link href="/">RKR</Link>
         <div>
           <ul style={{ color: `${linkColor}` }} className="hidden md:flex">
-            <li className="ml-10 text-sm uppercase hover:border-b">
+            <li className="ml-10 text-lg font-semibold uppercase hover:border-b">
               <Link href="/">Home</Link>
             </li>
-            <li className="ml-10 text-sm uppercase hover:border-b">
+            <li className="ml-10 text-lg font-semibold uppercase hover:border-b">
               <Link href="/#about">About</Link>
             </li>
-            <li className="ml-10 text-sm uppercase hover:border-b">
+            <li className="ml-10 uppercase text-lg font-semibold hover:border-b">
               <Link href="/#skills">Skills</Link>
             </li>
-            <li className="ml-10 text-sm uppercase hover:border-b">
+            <li className="ml-10 text-lg font-semibold uppercase hover:border-b">
               <Link href="/#projects">Projects</Link>
             </li>
-            <li className="ml-10 text-sm uppercase hover:border-b">
+            <li className="ml-10 text-lg font-semibold uppercase hover:border-b">
               <Link href="/#contact">Contact</Link>
             </li>
           </ul>
@@ -101,7 +101,7 @@ const Navbar = () => {
           }
         >
           <div>
-            <div className="flex w-full items-center justify-between">
+            <div className="flex w-full text-3xl font-bold items-center justify-between">
               <Link href="/">RKR</Link>
               <div
                 onClick={handleNav}
